@@ -1,7 +1,6 @@
 import random
 import re
 
-
 def replace_placeholders(template, words):
     for placeholder, value in words.items():
         template = template.replace(f"({placeholder})", value)
